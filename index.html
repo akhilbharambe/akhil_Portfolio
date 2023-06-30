@@ -13,25 +13,27 @@
 
 </head>
 <body>
+  <!-- NAVBAR -->
      <nav>
         <h1>Akhil Bharambe</h1>
-        <ul class="navigation">
-            <li> <a href="#about" class="nav-link"></a> About</li>
-            <li> <a href="#skills" class="nav-link"></a> Skills</li>
-            <li> <a href="project" class="nav-link"></a> Projects</li>
-            <li> <a href="contact" class="nav-link"></a> Contact</li>
+        <ul class="nav">
+            <li> <a href="#intro" class="nav-link">About</a> </li>
+            <li> <a href="#skills" class="nav-link">Skills</a> </li>
+            <li> <a href="#projects" class="nav-link">Projects</a> </li>
+            <li> <a href="#contact" class="nav-link">Contact</a> </li>
         </ul>
         <button class="burger-menu" id="burger-menu">
             <ion-icon class="bars" name="menu-outline"></ion-icon>
         </button>
      </nav>
+     <!-- INTRO SECTION -->
      <section class="hero" id="intro">
       <div class="intro-overlay"></div>
             <div class="intro-content">
               <div class="row">
                 <div class="col-twele">
                   <h5 >Hello, World.</h5>
-                  <h1 style="font-size: 85px;">I'm Akhil Bharambe</h1>
+                  <h1>I'm Akhil Bharambe</h1>
                   <p class="intro-position">
                     <span>Full-Stack Developer</span>
                   </p>
@@ -39,32 +41,19 @@
                 </div>
               </div>
             </div>
-            <ul class="intro-social">
-              <li><a href="#"><i id="fb"class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-         
      </section>
-     <section class="more-about">
+     <!-- ABOUT SECTION -->
+     <section class="more-about" id="more-about">
       <h2>More About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-        autem deleniti cupiditate molestias quis unde quae totam porro dicta
-        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+      <p class="about-p">
+        Hi, I'm <span id="my-name">Akhil Bharambe</span> an aspiring and determined <span id="stack">Full Stack Web Developer</span>, curious to explore different industry-standard tech stacks and environments. Willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization’s goal.
+
       </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-        nostrum dolor minus, libero delectus praesentium perferendis
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        consequuntur labore? Ea totam voluptas amet!
+      <p class="about-p">
+        I developed passion for coding a few years back when I printed my first "Hello world" 😃, that hello world just hits different. Since then aesthetically functional websites has just been my thing.
       </p>
     </section>
+    <!-- SKILLS SECTION  -->
     <section class="skills" id="skills">
       <h2 class="skill-header">My Top Skills</h2>
 
@@ -112,6 +101,7 @@
         </div>
       </div>
     </section>
+    <!-- PROJECTS SECTION -->
     <section class="projects" id="projects">
       <h2 class="projects-title">Some of my Recent Projects</h2>
       <div class="projects-container">
@@ -122,47 +112,113 @@
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Expense Tracker</h3>
+          <h3 class="project-title">Online Wine Shop</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            Mine-WIne is an online e-commerce platform that offers a wide selection of high-quality wines from around the world. Customers can browse and purchase their favorite wines conveniently from the comfort of their homes.
           </p>
           <a href="https://wine-derful-shop.netlify.app/" target="_blank" class="project-link">Check it Out</a>
         </div>
         <div class="project-container project-card">
           <img
-            src="assests/images/online-wine-shop.png"
-            alt="netflic-clone"
+            src="assests/images/tic-tac-toe.png"
+            alt="tic-tac-toe game"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Netflix Clone</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+          <h3 class="project-title">Tic-Tac-Toe</h3>
+          <p class="project-details">Tic-tac-toe is a game played on a 3x3 grid, where two players take turns marking X's and O's to form a line of three of their symbols horizontally, vertically, or diagonally to win.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assests/images/online-wine-shop.png"
-            alt="greeny-earth"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Greeny Earth</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://649ed83dad3e52109665e5f9--moonlit-kitsune-a613b0.netlify.app/" target="_blank" class="project-link">Check it Out</a>
         </div>
       </div>
     </section>
-
+    <!-- GET IN TOUCH WITH ME || CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form>
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- SOCIAL MEDIA ICONS -->
+    <div class="socials">
+      <a href="https://www.instagram.com/akhilbharambe/" target="_blank"
+        ><img
+          src="assests/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/akhil-bharambe-966774229" target="_blank"
+        ><img
+          src="assests/icons/icons8-linkedin.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/akhilbharambe" target="_blank"
+        ><img src="assests/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+      </div>
+      <!-- FOOTER -->
+      <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="https://twitter.com/koladechris" target="_blank"
+            >Akhil Bharambe</a
+          >
+        </p>
+  </footer>
+     <!-- SCROLL UP -->
+     <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assests/icons/icons8-up-arrow-64.png"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
     <script src="./assests/js/index.js"></script>
     <!-- icons_script -->
     <script
